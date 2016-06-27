@@ -123,6 +123,9 @@ li a:hover {
 
     float: right;
     height: 100%;
-    width: 25%;
+    width: 35%;
+    position: relative;
+    top: 0px;
+    bottom: 0px;
 
 }
