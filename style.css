@@ -164,5 +164,44 @@ li a:hover {
 
 }
 
+.Contact {
+	background-color: #163357;
+	height: 50%;
+	width: 100%;
+	font-family: 'Roboto Slab', serif;
+	color: #EBEBEB;
+}
+
+.social a:hover {
+    color: #FBFBFB;
+    text-decoration: none;
+}
+
+.social {
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	font-size: 45px;
+	display: inline-block;
+    	width: 70px;
+    	height: 70px;
+    	margin: 10px;
+    	float: none;
+}
+
+#fixwithpadding {
+	padding-bottom: 35px;
+}
+
+.paddingtop {
+	padding-top: 10px;
+}
+
+hr {
+    max-width: 50px;
+    border-color: #f05f40;
+    border-width: 3px;
+}
+
 
 
