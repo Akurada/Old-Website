@@ -108,16 +108,19 @@ li a:hover {
 #description {
 	font-family: titleFont, sans-serif;
 	font-size: 50px;
+	text-align: center;
 }
 #div-description {
 	font-family: "LoveloBlack";
     	font-size: 39pt;
     	line-height: 45pt;
+    	text-align: center;
 }
 #subtitle {
 	font-family: "LoveloBlack";
     	font-size: 30pt;
     	line-height: 45pt;
+    	text-align: center;
 }
 
 
@@ -140,11 +143,14 @@ li a:hover {
     	margin-bottom: 30px;
     	text-indent: 0;
     	color: #F7F9F9;
+    	text-align: center;
 
 }
 #about-text{
 	width: 800px;
 	margin: 100px;
+	text-align: center;
+	
 }
 
 #abhinav-picture {
