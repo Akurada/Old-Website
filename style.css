@@ -119,6 +119,27 @@ li a:hover {
 	
 }
 
+.about-descript{
+
+    width: 800px;
+    margin: 100px;
+
+}
+
+
+#abhinav-picture {
+
+    background-image: url("circular.png");
+    width: 400px;
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 200px;
+    margin: auto;
+    margin-bottom: 70px;
+
+}
+
 /* .right {
 
     float: right;
