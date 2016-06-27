@@ -127,7 +127,7 @@ li a:hover {
 
 @font-face {
     font-family: titleFont;
-    src: url("Lovelo_Black.otf");
+    src: url('Lovelo_Black.otf') format('otf'),
 }
 
 .smoothScroll {
