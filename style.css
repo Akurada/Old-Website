@@ -133,7 +133,7 @@ li a:hover {
 #about-descript{
 	
 	font-family: "Lato";
-	font-size: 25pt;
+	font-size: 20pt;
 	line-height: 40pt;
     	font-weight: 200;
 	text-indent: 2em;
@@ -150,8 +150,8 @@ li a:hover {
 #abhinav-picture {
 
     background-image: url("circular.png");
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    height: 250px;
     background-size: cover;
     background-position: center;
     border-radius: 200px;
