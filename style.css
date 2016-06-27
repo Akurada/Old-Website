@@ -110,11 +110,14 @@ li a:hover {
 	font-size: 50px;
 }
 #div-description {
-	font-family: titleFont, sans-serif;
-	font-size: 35px;
+	font-family: "LoveloBlack";
+    	font-size: 39pt;
+    	line-height: 45pt;
 }
 #subtitle {
-	font-family: titleFont, sans-serif;
+	font-family: "LoveloBlack";
+    	font-size: 30pt;
+    	line-height: 45pt;
 }
 
 
@@ -128,8 +131,16 @@ li a:hover {
 	
 }
 #about-descript{
-	font-family: 'Lato', sans-serif;
-	font-size: 25px;
+	
+	font-family: "Lato";
+	font-size: 25pt;
+	line-height: 40pt;
+    	font-weight: 200;
+	color: black;
+	text-indent: 2em;
+    	margin-bottom: 30px;
+    	text-indent: 0;
+
 }
 
 #abhinav-picture {
@@ -155,5 +166,16 @@ li a:hover {
     bottom: 0px;
 
 } 
+
+h2 {
+
+    font-family: "LoveloBlack";
+    font-size: 39pt;
+    line-height: 45pt;
+
+}
+
+
 */
+
 
