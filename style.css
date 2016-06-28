@@ -218,6 +218,7 @@ hr {
 	text-decoration:none;
 	text-shadow:0px 0px 0px #ebebeb;
 	margin-right: 50px;
+	margin-left: 50px;
 }
 .about-buttons:hover {
 	background-color:#f7f9f9;
