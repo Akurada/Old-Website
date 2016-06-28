@@ -68,7 +68,7 @@ li a:hover {
 
 .about {
 	background-color: #003554;
-	height: 175%;
+	height: 160%;
 	width: 100%;
 	text-align: center;
 	color: #F7F9F9;
@@ -165,7 +165,8 @@ li a:hover {
 }
 
 .Contact {
-	background-color: #163357;
+	/* background-color: #163357; */
+	background-color: #0582CA;
 	height: 40%;
 	width: 100%;
 	font-family: 'Roboto Slab', serif;
