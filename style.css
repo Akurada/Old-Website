@@ -144,20 +144,12 @@ li a:hover {
     	text-align: center;
 
 }
-#about-descript2{
-	
-	font-family: "Lato";
-	font-size: 20pt;
-	line-height: 40pt;
-    	font-weight: 200;
-    	margin-bottom: 5px;
-    	color: #F7F9F9;
-    	text-align: center;
-
-}
 #about-text{
 
-	margin: 100px;
+	margin-left: 100px;
+	margin-right:100px;
+	margin-top: 100px;
+	margin-bottom: 50px;
 	text-align: center;
 	
 }
