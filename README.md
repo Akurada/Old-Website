@@ -1,3 +1,3 @@
 # akurada.github.io
-#Akurada.tech
+Akurada.tech
 Personal Website
