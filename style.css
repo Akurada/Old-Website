@@ -196,14 +196,9 @@ li a:hover {
 }
 
 .imgDescription {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background: rgba(29, 106, 154, 0.72);
+  display: inline-block;
+  background: rgba(34,34,34,0.9);
   color: #fff;
-
 
   visibility: hidden;
   opacity: 0;
