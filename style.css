@@ -193,26 +193,22 @@ li a:hover {
 
 .imgWrap {
   position: relative;
+  height: 200px;
+  width: 200px;
 }
 
 .imgDescription {
-  position: inline-block;
+  position: absolute;
   top: 0;
   bottom: 0;
   left: 0;
   right: 0;
-  background: rgba(34,34,34,0.9);
+  background: rgba(29, 106, 154, 0.72);
   color: #fff;
   visibility: hidden;
   opacity: 0;
- }
- 
- 
- .imgWrap:hover .imgDescription {
-   visibility: visible;
-   opacity: 1;
- }
- 
+}
+
 .imgWrap:hover .imgDescription {
   visibility: visible;
   opacity: 1;
