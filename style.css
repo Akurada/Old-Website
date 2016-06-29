@@ -53,6 +53,7 @@ li a:hover {
 	/* background-color: #003E72;
 	opacity: 0.95;*/ 
 	background-image: url("nyc.jpg");
+	padding: 100px;
 }
 
 .content {
@@ -68,7 +69,7 @@ li a:hover {
 	background-color: #003554;
 	text-align: center;
 	color: #F7F9F9;
-	padding: 50px;
+	padding-bottom: 50px;
 }
 
 .Skills {
