@@ -191,11 +191,6 @@ li a:hover {
     	float: none;
 }
 
-.PortfolioImages img:hover {
-	opacity: 0.4;
-	filter: alpha(opacity=40);
-}
-
 #fixwithpadding {
 	padding-bottom: 35px;
 }
