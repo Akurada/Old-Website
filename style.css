@@ -192,7 +192,7 @@ li a:hover {
 }
 
 .imgWrap {
-  position: relative;
+  position: inline-block;
 }
 
 .imgDescription {
@@ -202,8 +202,6 @@ li a:hover {
 
   visibility: hidden;
   opacity: 0;
-
-  -webkit-transition: visibility opacity 0.2s;
 }
 
 
