@@ -248,13 +248,9 @@ hr {
     }
     
     #name {
-    	font-size: 39;
-    	line-height: 45pt;
-    	margin-left: 0px;
-    	margin-right: 0px;
+  	margin: 0;
+  	font-size: calc(4vw + 4vh + 2vmin);
     }
-    
-    
 }
 
 .about-buttons {
