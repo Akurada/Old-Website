@@ -204,6 +204,7 @@ div.item {
     display: inline-block;
     text-align: center;
     width: 300px;
+    margin: 20px;
 }
 img {
     width: 300px;
