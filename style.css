@@ -203,12 +203,8 @@ li a:hover {
 }*/
 
 .PortfolioImages {
-	text-align: center;
-	display: inline-block;
     	width: 300px;
     	height: 300px;
-    	margin: 15px;
-    	float: none;
 }
 
 .ProjectDescription {
