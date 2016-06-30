@@ -13,6 +13,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
+  
 }
 
 li {
@@ -81,6 +82,8 @@ li a:hover {
 .Portfolio {
 	background-color: #43AADD;
 	padding-bottom: 50px;
+	width: 100%;
+	text-align: center;
 }
 .NavRight {
 	color: #EBEBEB;
@@ -88,7 +91,18 @@ li a:hover {
     text-align: center;
     margin: 15px 15px 5px 15px;
     line-height: 20px;
+    text-decoration: none;
 }
+.NavRight a {
+	color: #EBEBEB;
+	text-decoration: none;
+}
+
+.NavRight a:hover {
+    color: #FBFBFB;
+    text-decoration: none;
+}
+
 #title {
 	font-family: 'Lato', sans-serif;
 	padding-top: 150px;
@@ -189,7 +203,7 @@ li a:hover {
     	float: none;
 }
 
-.PortfolioImages {
+/*.PortfolioImages {
 	text-align: center;
 	font-size: 45px;
 	display: inline-block;
@@ -197,7 +211,7 @@ li a:hover {
     	height: 300px;
     	margin: 15px;
     	float: none;
-}
+}*/
 
 .ProjectDescription {
 	text-align: center;
@@ -208,20 +222,112 @@ li a:hover {
 }
 
 div.item {
-    vertical-align: top;
     display: inline-block;
     text-align: center;
     width: 300px;
+    height: 300px;
     margin: 20px;
 }
+
+/*
 img {
     width: 300px;
     height: 300px;
 }
 .caption {
     display: block;
+}*/
+/*
+div.item img {
+	width: 300px;
+    	height: 300px;
 }
 
+div.item figure {
+	height: 300px;
+	position: relative;
+	overflow: hidden;
+	width: 300px;
+}
+
+div.item figcaption {
+	background: rgba(0,0,0,0.8);
+	color: white;
+	display: table;
+	height: 100%;
+	left: 15;
+	opacity: 0;
+	position: absolute;
+	right: 0;
+	top: 0;
+	z-index: 100;
+}
+
+div.item figcaption p {
+	display: table-cell;
+	font-size: 1.5em;
+	position: relative;
+	top: -40px;
+	width: 289px;
+	vertical-align: middle;
+}
+
+div.item:hover figcaption {
+	opacity: 1;
+}
+
+div.item img {
+	display: block;
+	height: auto;
+	-webkit-transition: all 300ms;
+	-moz-transition: all 300ms;
+	transition: all 300ms;
+	max-width: 100%;
+}
+
+div.item:hover img {
+	-webkit-transform: scale(1.4);
+	-moz-transform: scale(1.4);
+	transform: scale(1.4);
+}
+
+div.item figcaption p {
+	display: table-cell;
+	font-size: 1.5em;
+	position: relative;
+	top: -40px;
+	width: 289px;
+	-webkit-transition: all 300ms ease-out;
+	-moz-transition: all 300ms ease-out;
+	transition: all 300ms ease-out;
+	vertical-align: middle;
+}
+
+div.item:hover figcaption p {
+	-moz-transform: translateY(40px);
+	-webkit-transform: translateY(40px);
+	transform: translateY(40px);
+}
+
+div.item figcaption {
+	background: rgba(0,0,0,0.8);
+	color: white;
+	display: table;
+	height: 100%;
+	left: 0;
+	opacity: 0;
+	position: absolute;
+	right: 0;
+	top: 0;
+	-webkit-transition: all 300ms;
+	-moz-transition: all 300ms;
+	transition: all 300ms;
+	-webkit-transition-delay: 100ms;
+	-moz-transition-delay: 100ms;
+	transition-delay: 100ms;
+	z-index: 100;
+}
+*/
 #fixwithpadding {
 	padding-bottom: 35px;
 }
@@ -250,12 +356,12 @@ hr {
     
     #name {
   	margin: -35px;
-  	padding-bottom: 20px;
+  	padding-top: 40px;
     }
     
     #subtitle {
 	margin: -35px;
-  	padding-bottom: 20px;
+  	padding-top: 40px;
     }
     
     #about-descript {
