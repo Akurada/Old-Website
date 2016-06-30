@@ -254,12 +254,12 @@ hr {
     }
     
     #subtitle {
-	margin: -100px;
+	margin: -50px;
   	padding-top: 20px;
     }
     
     #about-descript {
-    	margin: -100px;
+    	margin: -50px;
   	padding-top: 20px;
     }
 }
