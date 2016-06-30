@@ -225,13 +225,18 @@ img {
     display: block;
 }*/
 
+.table {
+	display: table;
+	margin: 0 auto;
+}
+
 .photo-grid {
 	width:100%;
         text-align:center;
 }
 
 .photo-grid li {
-	display: inline-block;
+	display: inline;
     	margin: 15px;
 }
 
