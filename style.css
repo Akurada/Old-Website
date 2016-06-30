@@ -248,7 +248,7 @@ hr {
     }
     
     #name {
-  	margin: 0px;
+  	margin: -100px;
   	padding: 0px;
     }
 }
