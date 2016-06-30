@@ -70,8 +70,9 @@ a:hover {
 }
 
 .FirstCard {
-	background-image: url("nyc.jpg") no-repeat scroll 100% 100% / cover;
-	background-size: cover;
+	background-image:url("nyc.jpg");
+	background-repeat:no-repeat;
+	background-size:cover;
 	padding-top: 50px;
 	height: 100%;
 }
