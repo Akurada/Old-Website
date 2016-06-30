@@ -69,14 +69,17 @@ a:hover {
 	float: right;
 }
 
-
-
+.full {
+  background: url("nyc.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
 
 .FirstCard {
 	padding-top: 50px;
-	background-image: url("nyc.jpg");
 	height: 100%;
-	background-size: cover;
 }
 
 .content {
