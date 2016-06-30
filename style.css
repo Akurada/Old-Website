@@ -93,9 +93,14 @@ li a:hover {
     line-height: 20px;
     text-decoration: none;
 }
+.NavRight a {
+	color: #EBEBEB;
+	text-decoration: none;
+}
 
 .NavRight a:hover {
     color: #FBFBFB;
+    text-decoration: none;
 }
 
 #title {
