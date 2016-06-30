@@ -248,8 +248,8 @@ hr {
     }
     
     #name {
-  	margin: 0;
-  	font-size: calc(4vw + 4vh + 2vmin);
+  	margin: 0px;
+  	padding: 0px;
     }
 }
 
