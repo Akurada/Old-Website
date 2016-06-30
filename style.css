@@ -80,7 +80,8 @@ li a:hover {
 
 .Portfolio {
 	background-color: #43AADD;
-	padding: 50px;
+	padding-top: 50px;
+	padding-bottom: 50px;
 	width: 100%;
 	text-align: center;
 }
