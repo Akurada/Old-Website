@@ -1,8 +1,23 @@
-<DOCTYPE! html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
-	<title>Abhinav Kurada | Home</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Abhinav Kurada's Website</title>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="js/html5shiv.min.js"></script>
+      <script src="js/respond.min.js"></script>
+    <![endif]-->
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+
+
+    <link rel="stylesheet" type="text/css" href="css/style.css">
 	<link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
 	<link href='https://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
@@ -11,23 +26,22 @@
 	<link rel="icon" href="/favicon.ico" type="image/x-icon">
 	<meta name=viewport content="width=device-width, initial-scale=1">
 	
-	<script src="//ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 	<script type="text/javascript">
 	$(document).ready(function(){       
 		
    var scroll_start = 0;
-   var startchange = $('.Navbar');
+   var startchange = $('.navbar-custom');
    var offset = startchange.offset();
    $(document).scroll(function() { 
       scroll_start = $(this).scrollTop();
       if(scroll_start > offset.top) {
-          $('.Navbar').css('background-color', 'rgba(34,34,34,0.9)');
+          $('.navbar-custom').css('background-color', 'rgba(34,34,34,0.9)');
        } else {
-          $('.Navbar').css('background-color', 'transparent');
+          $('.navbar-custom').css('background-color', 'transparent');
        }
    });
 });
-
 $(function() {
   $('.smoothScroll').click(function() {
     if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
@@ -42,29 +56,35 @@ $(function() {
     }
   });
 });
-
-	</script>
+</script>
 	
 
 </head>
 
 <body>
 
-	
-	<!--First card-->
+	<header>
+		<div class = "navbar navbar-custom navbar-fixed-top">
+			<div class = "container">
+				<div class = "navbar-header">
+					<a href = "#Home" class = "navbar-brand smoothScroll">Abhinav Kurada</a>
+				</div>
+
+				<div class = "collapse navbar-collapse navbar-right" id = "example">
+					<ul class = "nav navbar-nav">
+						<li><a href = "#Home" class = "smoothScroll">Home</a></li>
+						<li><a href = "#About" class = "smoothScroll">About</a></li>
+						<li><a href = "#Skills" class = "smoothScroll">Skills</a></li>
+						<li><a href = "#Portfolio" class = "smoothScroll">Portfolio</a></li>
+						<li><a href = "#Contact" class = "smoothScroll">Contact</a></li>
+					</ul>
+				</div>
+			</div>
+		</div> 
+	</header>
+
 	<a name="Home"></a>
 	<div class = "FirstCard">
-		<div class = "Navbar">
-			<div class = "NavRight"><a href = "#Home" class = "smoothScroll">Abhinav Kurada</a></div>
-			<ul>
-				<li><a href = "#Contact" class = "smoothScroll">CONTACT</a></li>
-				<li><a href = "#Portfolio" class = "smoothScroll">PORTFOLIO</a></li>
-				<li><a href = "#Skills" class = "smoothScroll">SKILLS</a></li>
-				<li><a href = "#About" class = "smoothScroll">ABOUT</a></li>
-				<li><a href = "#Home" class = "smoothScroll">HOME</a></li>
-			</ul>
-		</div>
-
 		<div class = "content">
 			<h1 id = "title"> Abhinav Kurada</h1>
 			<b><p id = "description">Engineer. Creator. Entrepreneur.</p></b>
@@ -336,7 +356,5 @@ $(function() {
 			<a target="_blank" href = "https://www.github.com/akurada" class = "social"><i class="fa fa-github-square social"></i></a>
 			<a target="_blank" href = "https://www.twitter.com/abhinavkurada" class = "social"><i class="fa fa-twitter-square social right2"></i>	</a>
 	</div>
-
-
-</body>
+</body>	
 </html>
