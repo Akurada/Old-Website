@@ -1,23 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-
+<DOCTYPE! html>
+<html>
 <head>
-	<meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Abhinav Kurada's Website</title>
-
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-      <script src="js/html5shiv.min.js"></script>
-      <script src="js/respond.min.js"></script>
-    <![endif]-->
-<!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-
-
-    <link rel="stylesheet" type="text/css" href="style.css">
+	<title>Abhinav Kurada | Home</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
 	<link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
 	<link href='https://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
@@ -26,22 +11,23 @@
 	<link rel="icon" href="/favicon.ico" type="image/x-icon">
 	<meta name=viewport content="width=device-width, initial-scale=1">
 	
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
 	<script type="text/javascript">
 	$(document).ready(function(){       
 		
    var scroll_start = 0;
-   var startchange = $('.navbar-custom');
+   var startchange = $('.Navbar');
    var offset = startchange.offset();
    $(document).scroll(function() { 
       scroll_start = $(this).scrollTop();
       if(scroll_start > offset.top) {
-          $('.navbar-custom').css('background-color', 'rgba(34,34,34,0.9)');
+          $('.Navbar').css('background-color', 'rgba(34,34,34,0.9)');
        } else {
-          $('.navbar-custom').css('background-color', 'transparent');
+          $('.Navbar').css('background-color', 'transparent');
        }
    });
 });
+
 $(function() {
   $('.smoothScroll').click(function() {
     if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
@@ -56,37 +42,31 @@ $(function() {
     }
   });
 });
-</script>
+
+	</script>
 	
 
 </head>
 
 <body>
 
-	<header>
-		<div class = "navbar navbar-custom navbar-fixed-top">
-			<div class = "container">
-				<div class = "navbar-header">
-					<a href = "#Home" class = "navbar-brand smoothScroll">Abhinav Kurada</a>
-				</div>
-
-				<div class = "collapse navbar-collapse navbar-right" id = "example">
-					<ul class = "nav navbar-nav">
-						<li><a href = "#Home" class = "smoothScroll">Home</a></li>
-						<li><a href = "#About" class = "smoothScroll">About</a></li>
-						<li><a href = "#Skills" class = "smoothScroll">Skills</a></li>
-						<li><a href = "#Portfolio" class = "smoothScroll">Portfolio</a></li>
-						<li><a href = "#Contact" class = "smoothScroll">Contact</a></li>
-					</ul>
-				</div>
-			</div>
-		</div> 
-	</header>
-
+	
+	<!--First card-->
 	<a name="Home"></a>
 	<div class = "FirstCard">
+		<div class = "Navbar">
+			<div class = "NavRight">Abhinav Kurada</div>
+			<ul>
+				<li><a href = "#Contact" class = "smoothScroll">CONTACT</a></li>
+				<li><a href = "#Portfolio" class = "smoothScroll">PORTFOLIO</a></li>
+				<li><a href = "#Skills" class = "smoothScroll">SKILLS</a></li>
+				<li><a href = "#About" class = "smoothScroll">ABOUT</a></li>
+				<li><a href = "#Home" class = "smoothScroll">HOME</a></li>
+			</ul>
+		</div>
+
 		<div class = "content">
-			<h1 id = "title"> Abhinav Kurada</h1>
+			<h1 id = "title">Abhinav Kurada</h1>
 			<b><p id = "description">Engineer. Creator. Entrepreneur.</p></b>
 			<a href = "#About" class = "smoothScroll"><img src="scrolldown.png" class = "smoothScroll" style="width:50px;height:50px;"></a>
 		</div>
@@ -109,8 +89,8 @@ $(function() {
 			<!-- Button of Linkedin (to the left) -->               <!-- Button of Resume (to the right) --> 
 			
 			
-			<a target="_blank" href= https://www.linkedin.com/in/abhinavkurada class="about-buttons">Linkedin</a>
-			<a target="_blank" href= Full_Resume.pdf class="about-buttons">Resume</a>
+			<a href= https://www.linkedin.com/in/abhinavkurada class="about-buttons">Linkedin</a>
+			<a href= Full_Resume.pdf class="about-buttons">Resume</a>
 			
 			<!-- <img src = "banner.png" class = "right">  -->
 		</div>
@@ -175,104 +155,6 @@ $(function() {
 	
 
 	<a name="Portfolio"></a>
-	<!-- <div class = "Portfolio">
-		<div class = "content" id = "gapIssue">
-			<div class="table">
-				
-			<h3>Startup / Buisness</h3>
-  			
-  			<div class="item">
-    				<a target="_blank" href="http://www.flickr.com/photos/aigle_dore/5238557764/">
-					<figure>
-						<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBRuJ4Tm9rzLrLQvMS1NtqaKPGJQpqo7ENvB6YhuehBN1mcgm4" alt="Notre Dame" class = "PortfolioImages" style = "width: 300px; height: 300px">
-						<figcaption><p>Notre Dame</p></figcaption>
-					</figure>
-				</a>
-			</div>
-			
-			<div class="item">
-    				<a target="_blank" href="http://www.flickr.com/photos/aigle_dore/5238557764/">
-					<figure>
-						<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBRuJ4Tm9rzLrLQvMS1NtqaKPGJQpqo7ENvB6YhuehBN1mcgm4" alt="Notre Dame" class = "PortfolioImages" style = "width: 300px; height: 300px">
-						<figcaption><p>Notre Dame</p></figcaption>
-					</figure>
-				</a>
-			</div>
-			
-			<div class="item">
-    				<a target="_blank" href="http://www.flickr.com/photos/aigle_dore/5238557764/">
-					<figure>
-						<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBRuJ4Tm9rzLrLQvMS1NtqaKPGJQpqo7ENvB6YhuehBN1mcgm4" alt="Notre Dame" class = "PortfolioImages" style = "width: 300px; height: 300px">
-						<figcaption><p>Notre Dame</p></figcaption>
-					</figure>
-				</a>
-			</div>
-  			
-  			<br>
-  			
-  			<h3>Science</h3>
-			
-			<div class="item">
-    				<a target="_blank" href="http://www.flickr.com/photos/aigle_dore/5238557764/">
-					<figure>
-						<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBRuJ4Tm9rzLrLQvMS1NtqaKPGJQpqo7ENvB6YhuehBN1mcgm4" alt="Notre Dame" class = "PortfolioImages" style = "width: 300px; height: 300px">
-						<figcaption><p>Notre Dame</p></figcaption>
-					</figure>
-				</a>
-			</div>
-			
-			<div class="item">
-    				<a target="_blank" href="http://www.flickr.com/photos/aigle_dore/5238557764/">
-					<figure>
-						<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBRuJ4Tm9rzLrLQvMS1NtqaKPGJQpqo7ENvB6YhuehBN1mcgm4" alt="Notre Dame" class = "PortfolioImages" style = "width: 300px; height: 300px">
-						<figcaption><p>Notre Dame</p></figcaption>
-					</figure>
-				</a>
-			</div>
-			
-			<div class="item">
-    				<a target="_blank" href="http://www.flickr.com/photos/aigle_dore/5238557764/">
-					<figure>
-						<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBRuJ4Tm9rzLrLQvMS1NtqaKPGJQpqo7ENvB6YhuehBN1mcgm4" alt="Notre Dame" class = "PortfolioImages" style = "width: 300px; height: 300px">
-						<figcaption><p>Notre Dame</p></figcaption>
-					</figure>
-				</a>
-			</div>
-  			
-  			<br>
-			
-			<h3>Humanities</h3>
-			
-			<div class="item">
-    				<a target="_blank" href="http://www.flickr.com/photos/aigle_dore/5238557764/">
-					<figure>
-						<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBRuJ4Tm9rzLrLQvMS1NtqaKPGJQpqo7ENvB6YhuehBN1mcgm4" alt="Notre Dame" class = "PortfolioImages" style = "width: 300px; height: 300px">
-						<figcaption><p>Notre Dame</p></figcaption>
-					</figure>
-				</a>
-			</div>
-			
-			<div class="item">
-    				<a target="_blank" href="http://www.flickr.com/photos/aigle_dore/5238557764/">
-					<figure>
-						<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBRuJ4Tm9rzLrLQvMS1NtqaKPGJQpqo7ENvB6YhuehBN1mcgm4" alt="Notre Dame" class = "PortfolioImages" style = "width: 300px; height: 300px">
-						<figcaption><p>Notre Dame</p></figcaption>
-					</figure>
-				</a>
-			</div>
-			
-			<div class="item">
-    				<a target="_blank" href="http://www.flickr.com/photos/aigle_dore/5238557764/">
-					<figure>
-						<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBRuJ4Tm9rzLrLQvMS1NtqaKPGJQpqo7ENvB6YhuehBN1mcgm4" alt="Notre Dame" class = "PortfolioImages" style = "width: 300px; height: 300px">
-						<figcaption><p>Notre Dame</p></figcaption>
-					</figure>
-				</a>
-			</div>
-			</div>
-		</div>
-	</div> -->
-
 	<div class = "Portfolio">
 		<div class = "content" id = "gapIssue">
 			<h1>Portfolio</h1>
@@ -335,7 +217,7 @@ $(function() {
 		</div>
 	</div>
 	
-	<a name="Contact"></a>
+		<a name="Contact"></a>
 	<div class = "Contact">
 		<div class = "content paddingtop">
 			<h1>Contact</h1>
@@ -344,17 +226,21 @@ $(function() {
 			
 			<p>Feel free to reach out to me below</p>
 
-			<a target="_blank" href = Cell.pdf class = "social"><i class="fa fa-phone fa-1.25x left social"></i></a>
-			<a target="_blank" href = Full_Resume.pdf class = "social"><i class="fa fa-file-pdf-o social"></i></a>
+
+
+			<a href = "" class = "social"><i class="fa fa-phone fa-1.25x left social"></i></a>
+			<a href = "" class = "social"><i class="fa fa-file-pdf-o social"></i></a>
   			
-  			<a target="_blank" href = "mailto:abhinav.kurada@columbia.edu" class = "social"><i class="fa fa-envelope icon right social"></i></a>
+  			<a href = "mailto:abhinav.kurada@columbia.edu" class = "social"><i class="fa fa-envelope icon right social"></i></a>
 
   			<br>
 
-			<a target="_blank" href = "https://www.facebook.com/abhinav.kurada" class = "social"> <i class="fa fa-facebook-square social left2"></i></a>
-			<a target="_blank" href = "https://www.linkedin.com/in/abhinavkurada" class = "social"> <i class="fa fa-linkedin-square social left3"></i></a>
-			<a target="_blank" href = "https://www.github.com/akurada" class = "social"><i class="fa fa-github-square social"></i></a>
-			<a target="_blank" href = "https://www.twitter.com/abhinavkurada" class = "social"><i class="fa fa-twitter-square social right2"></i>	</a>
+			<a href = "https://www.facebook.com/abhinav.kurada" class = "social"> <i class="fa fa-facebook-square social left2"></i></a>
+			<a href = "https://www.linkedin.com/in/abhinavkurada" class = "social"> <i class="fa fa-linkedin-square social left3"></i></a>
+			<a href = "https://www.github.com/akurada" class = "social"><i class="fa fa-github-square social"></i></a>
+			<a href = "https://www.twitter.com/abhinavkurada" class = "social"><i class="fa fa-twitter-square social right2"></i>	</a>
 	</div>
-</body>	
+
+
+</body>
 </html>
