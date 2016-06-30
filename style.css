@@ -220,10 +220,10 @@ li a:hover {
 }
 
 div.item {
-    vertical-align: top;
     display: inline-block;
     text-align: center;
     width: 300px;
+    height: 300px;
     margin: 20px;
 }
 
