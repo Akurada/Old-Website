@@ -50,6 +50,11 @@ li a:hover {
     {
         display: none;
     }
+    
+    #title {
+	padding-top: 125px;
+	font-size: 75px;
+    }
 }
 
 .FirstCard {
