@@ -226,17 +226,13 @@ img {
 }*/
 
 .photo-grid {
-	margin: 1em auto;
-    	text-align: center;
+	width:100%;
+        text-align:center;
 }
 
 .photo-grid li {
 	display: inline-block;
-	text-align: center;
-    	width: 300px;
     	margin: 15px;
-    	height: 300px;
-    	float: none;
 }
 
 .photo-grid img {
