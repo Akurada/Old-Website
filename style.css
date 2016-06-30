@@ -235,6 +235,7 @@ div.item img {
 div.item figure {
 	height: 300px;
 	position: relative;
+	overflow: hidden;
 	width: 300px;
 }
 
@@ -243,7 +244,7 @@ div.item figcaption {
 	color: white;
 	display: table;
 	height: 100%;
-	left: 0;
+	left: 15;
 	opacity: 0;
 	position: absolute;
 	right: 0;
