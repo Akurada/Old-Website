@@ -111,8 +111,8 @@ li a:hover {
     	font-size: 39;
     	line-height: 45pt;
     	text-align: center;
-    	margin: 0px;
 }
+
 #subtitle {
 	font-family: "LoveloBlack";
     	font-size: 27pt;
@@ -245,6 +245,13 @@ hr {
     #title {
 	font-size: 75px;
 	padding-top: 35px;
+    }
+    
+    #name {
+    	font-size: 39;
+    	line-height: 45pt;
+    	margin-left: 0px;
+    	margin-right: 0px;
     }
     
     
