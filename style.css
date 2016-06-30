@@ -202,11 +202,6 @@ li a:hover {
     	float: none;
 }*/
 
-.PortfolioImages {
-    	width: 300px;
-    	height: 300px;
-}
-
 .ProjectDescription {
 	text-align: center;
 	font-size: 45px;
@@ -239,7 +234,6 @@ div.item img {
 
 div.item figure {
 	height: 300px;
-	overflow: hidden;
 	position: relative;
 	width: 300px;
 }
