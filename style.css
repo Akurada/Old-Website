@@ -249,20 +249,20 @@ hr {
     }
     
     #name {
-  	margin: 0 auto;
-  	width: 90%;
+  	margin: -25px;
+  	width: 110%;
   	padding: 0px;
     }
     
     #subtitle {
-	margin: 0 auto;
-  	width: 90%;
+	margin: -25px;
+  	width: 110%;
   	padding: 0px;
     }
     
     #about-descript {
-    	margin: 0 auto;
-  	width: 90%;
+    	margin: -25px;
+  	width: 110%;
   	padding: 0px;
     }
 }
