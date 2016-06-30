@@ -250,17 +250,17 @@ hr {
     
     #name {
   	margin: -25px;
-  	padding: 0px;
+  	padding: 10px;
     }
     
     #subtitle {
 	margin: -100px;
-  	padding: 0px;
+  	padding: 10px;
     }
     
     #about-descript {
     	margin: -100px;
-  	padding: 0px;
+  	padding: 10px;
     }
 }
 
