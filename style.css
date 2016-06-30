@@ -70,12 +70,14 @@ a:hover {
 }
 
 .full {
-  background: url("nyc.jpg") no-repeat center center fixed; 
+  background: url("nyc.jpg") no-repeat scroll 100% 100% / cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
 }
+
+
 
 .FirstCard {
 	padding-top: 50px;
