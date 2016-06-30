@@ -251,6 +251,16 @@ hr {
   	margin: -100px;
   	padding: 0px;
     }
+    
+    #subtitle {
+	margin: -100px;
+  	padding: 0px;
+    }
+    
+    #about-descript {
+    	margin: -100px;
+  	padding: 0px;
+    }
 }
 
 .about-buttons {
