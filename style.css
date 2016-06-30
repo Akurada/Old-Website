@@ -105,6 +105,14 @@ li a:hover {
     	line-height: 45pt;
     	text-align: center;
 }
+
+#name {
+	font-family: "LoveloBlack";
+    	font-size: 39;
+    	line-height: 45pt;
+    	text-align: center;
+    	margin: 0px;
+}
 #subtitle {
 	font-family: "LoveloBlack";
     	font-size: 27pt;
@@ -238,6 +246,8 @@ hr {
 	font-size: 75px;
 	padding-top: 35px;
     }
+    
+    
 }
 
 .about-buttons {
