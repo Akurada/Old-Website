@@ -249,17 +249,17 @@ hr {
     }
     
     #name {
-  	margin: -25px;
+  	margin: -35px;
   	padding-top: 20px;
     }
     
     #subtitle {
-	margin: -75px;
+	margin: -35px;
   	padding-top: 20px;
     }
     
     #about-descript {
-    	margin: -75px;
+    	margin: -35px;
   	padding-top: 20px;
     }
 }
