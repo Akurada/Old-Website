@@ -91,6 +91,11 @@ li a:hover {
     text-align: center;
     margin: 15px 15px 5px 15px;
     line-height: 20px;
+    text-decoration: none;
+}
+
+.NavRight a:hover {
+    color: #FBFBFB;
 }
 
 #title {
