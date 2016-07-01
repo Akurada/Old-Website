@@ -245,10 +245,12 @@ li a:hover {
 }
 #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content i {
   margin-top: -12px;
+  color: #EBEBEB
 }
 #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h3,
 #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h4 {
   margin: 0;
+  color: #EBEBEB;
 }
 #portfolio .portfolio-item .portfolio-caption {
   max-width: 400px;
@@ -317,6 +319,8 @@ li a:hover {
   font-size: 17px;
   padding: 10px;
   background: rgba(0, 0, 0, 0.6);
+  text-decoration: none;
+  color: ;
 }
 
 .hovereffect a.info {
