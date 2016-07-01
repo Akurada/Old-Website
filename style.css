@@ -290,7 +290,7 @@ li a:hover {
 }
 @media (min-width: 767px) {
   #portfolio .portfolio-item {
-    margin: 50 50 30px;
+    margin: 0 0 30px;
   }
 }
 
