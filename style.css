@@ -366,3 +366,16 @@ hr {
 	position:relative;
 	top:1px;
 }
+/* this is for the skills and education div */
+hr.small {
+    max-width: 100px;
+}
+
+.services {
+    padding: 50px 0;
+}
+
+.service-item {
+    margin-bottom: 30px;
+}
+
