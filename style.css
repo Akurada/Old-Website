@@ -70,35 +70,11 @@ li a:hover {
   	.FirstCard {
   		padding-bottom: 400px;
   	}
+  	
+  	.portfolio-item {
+  		margin-bottom: 35px;
+  	}
 
-}
-
-@media (max-width: 640px) 
-{
-    .Navbar
-    {
-        display: none;
-    }
-    
-    #title {
-	font-size: 75px;
-	padding-top: 35px;
-    }
-    
-    #name {
-  	margin: -35px;
-  	padding-top: 40px;
-    }
-    
-    #subtitle {
-	margin: -35px;
-  	padding-top: 40px;
-    }
-    
-    #about-descript {
-    	margin: -35px;
-  	padding-top: 20px;
-    }
 }
 
 .content {
@@ -443,6 +419,10 @@ hr {
     	margin: -35px;
   	padding-top: 20px;
     }
+    
+    .portfolio-item {
+  		margin-bottom: 35px;
+  	}
 }
 
 .about-buttons {
