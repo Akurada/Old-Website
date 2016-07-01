@@ -248,6 +248,7 @@ li a:hover {
 }
 #portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
   opacity: 1;
+  overflow: hidden;
 }
 #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
   position: absolute;
@@ -334,6 +335,8 @@ h2 {
   -webkit-transform: scale(1.2);
   -ms-transform: scale(1.2);
   transform: scale(1.2);
+    overflow: hidden;
+
 }
 
 .hovereffect h2 {
