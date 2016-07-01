@@ -316,7 +316,7 @@ li a:hover {
   text-transform: uppercase;
   text-align: center;
   position: relative;
-  font-size: 17px;
+  font-size: 25px;
   padding: 10px;
   background: rgba(0, 0, 0, 0.6);
   text-decoration: none;
@@ -346,6 +346,7 @@ li a:hover {
   filter: alpha(opacity=0);
   color: #fff;
   text-transform: uppercase;
+  text-decoration: none;
 }
 
 .hovereffect:hover a.info, .hovereffect:hover h2 {
@@ -354,6 +355,7 @@ li a:hover {
   -webkit-transform: scale(1);
   -ms-transform: scale(1);
   transform: scale(1);
+  text-decoration: none;
 }
 
 
