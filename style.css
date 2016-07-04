@@ -439,7 +439,7 @@ and (-webkit-min-device-pixel-ratio: 1)  {
 	
 }
 
-.btn.round {
+.btn {
 	border-radius: 28px;
 }
 
