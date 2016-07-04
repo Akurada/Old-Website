@@ -412,24 +412,11 @@ hr {
 	padding-top: 35px;
     }
     
-    #name {
-  	margin: -35px;
-  	padding-top: 40px;
-    }
-    
-    #subtitle {
-	margin: -35px;
-  	padding-top: 40px;
-    }
-    
-    #about-descript {
-    	margin: -35px;
-  	padding-top: 20px;
-    }
-    
     .portfolio-item {
   		margin-bottom: 35px;
   	}
+  	
+  
 }
 
 .about-buttons {
