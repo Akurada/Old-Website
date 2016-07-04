@@ -103,6 +103,11 @@ li a:hover {
 	width: 100%;
 	text-align: center;
 }
+
+hr {
+	padding-top: -15px;
+}
+
 .NavRight {
 	color: #EBEBEB;
 	float: left;
