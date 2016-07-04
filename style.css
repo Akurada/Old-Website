@@ -424,7 +424,7 @@ hr {
   
 }
 
-.about-buttons {
+.btn {
 	background-color:#ebebeb;
 	-moz-border-radius:28px;
 	-webkit-border-radius:28px;
@@ -440,10 +440,10 @@ hr {
 	margin-right: 50px;
 	margin-left: 50px;
 }
-.about-buttons:hover {
+.btn:hover {
 	background-color:#f7f9f9;
 }
-.about-buttons:active {
+.btn:active {
 	position:relative;
 	top:1px;
 }
