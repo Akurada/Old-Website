@@ -775,9 +775,48 @@
 }
 @media (min-width:768px){.bootstrap .form-horizontal .form-group-sm .control-label{padding-top:6px;font-size:12px}
 }
-.bootstrap .btn{display:inline-block;padding:6px 12px;margin-bottom:0;font-size:14px;font-weight:400;line-height:1.42857143;text-align:center;white-space:nowrap;vertical-align:middle;-ms-touch-action:manipulation;touch-action:manipulation;cursor:pointer;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;background-image:none;border:1px solid transparent;border-radius:4px}
+
+/* from external site advice */
+
+.bootstrap .btn.outline {
+    background: none;
+    padding: 12px 22px;
+}
+.bootstrap .btn-primary.outline {
+    border: 2px solid #0099cc;
+    color: #0099cc;
+}
+.bootstrap .btn-primary.outline:hover, .bootstrap .btn-primary.outline:focus, .bootstrap .btn-primary.outline:active, .bootstrap .btn-primary.outline.active, .bootstrap .open > .dropdown-toggle.btn-primary {
+    color: #33a6cc;
+    border-color: #33a6cc;
+}
+.bootstrap .btn-primary.outline:active, .bootstrap .btn-primary.outline.active {
+    border-color: #007299;
+    color: #007299;
+    box-shadow: none;
+}
+
+.bootstrap .btn {
+    padding: 14px 24px;
+    border: 0 none;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.bootstrap .btn:focus, .bootstrap .btn:active:focus, .bootstrap .btn.active:focus {
+    outline: 0 none;
+}
+
+
+
+/* .bootstrap .btn{display:inline-block;padding:6px 12px;margin-bottom:0;font-size:14px;font-weight:400;line-height:1.42857143;text-align:center;white-space:nowrap;vertical-align:middle;-ms-touch-action:manipulation;touch-action:manipulation;cursor:pointer;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;background-image:none;border:1px solid transparent;border-radius:4px}
+
 .bootstrap .btn.active.focus, .bootstrap .btn.active:focus, .bootstrap .btn.focus, .bootstrap .btn:active.focus, .bootstrap .btn:active:focus, .bootstrap .btn:focus{outline:thin dotted;outline:5px auto -webkit-focus-ring-color;outline-offset:-2px}
+
+
 .bootstrap .btn.focus, .bootstrap .btn:focus, .bootstrap .btn:hover{color:#333;text-decoration:none}
+*/
+
 .bootstrap .btn.active, .bootstrap .btn:active{background-image:none;outline:0;-webkit-box-shadow:inset 0 3px 5px rgba(0, .bootstrap 0, .bootstrap 0, .bootstrap .125);box-shadow:inset 0 3px 5px rgba(0, .bootstrap 0, .bootstrap 0, .bootstrap .125)}
 .bootstrap .btn.disabled, .bootstrap .btn[disabled], .bootstrap fieldset[disabled] .btn{cursor:not-allowed;filter:alpha(opacity=65);-webkit-box-shadow:none;box-shadow:none;opacity:.65}
 .bootstrap a.btn.disabled, .bootstrap fieldset[disabled] a.btn{pointer-events:none}
