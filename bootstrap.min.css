@@ -810,7 +810,9 @@
 .bootstrap .btn:focus, .bootstrap .btn:active:focus, .bootstrap .btn.active:focus {
     outline: 0 none;
 }
-
+.bootstrap .btn{
+  display: inline-block;
+}
 .bootstrap .btn.active, .bootstrap .btn:active{background-image:none;outline:0;-webkit-box-shadow:inset 0 3px 5px rgba(0, .bootstrap 0, .bootstrap 0, .bootstrap .125);box-shadow:inset 0 3px 5px rgba(0, .bootstrap 0, .bootstrap 0, .bootstrap .125)}
 .bootstrap .btn.disabled, .bootstrap .btn[disabled], .bootstrap fieldset[disabled] .btn{cursor:not-allowed;filter:alpha(opacity=65);-webkit-box-shadow:none;box-shadow:none;opacity:.65}
 .bootstrap a.btn.disabled, .bootstrap fieldset[disabled] a.btn{pointer-events:none}
