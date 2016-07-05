@@ -789,12 +789,18 @@
 .bootstrap .btn-primary.outline:hover, .bootstrap .btn-primary.outline:focus, .bootstrap .btn-primary.outline:active, .bootstrap .btn-primary.outline.active, .bootstrap .open > .dropdown-toggle.btn-primary {
     color: #33a6cc;
     border-color: #33a6cc;
+    text-decoration:none;
+    
 }
+/* 
 .bootstrap .btn-primary.outline:active, .bootstrap .btn-primary.outline.active {
     border-color: #007299;
     color: #007299;
     box-shadow: none;
+     text-decoration:none;
 }
+
+*/
 
 .bootstrap .btn {
     padding: 14px 24px;
@@ -803,10 +809,11 @@
     letter-spacing: 1px;
     text-transform: uppercase;
 }
+/* 
 .bootstrap .btn:focus, .bootstrap .btn:active:focus, .bootstrap .btn.active:focus {
     outline: 0 none;
 }
-
+*/
 
 
 /* .bootstrap .btn{display:inline-block;padding:6px 12px;margin-bottom:0;font-size:14px;font-weight:400;line-height:1.42857143;text-align:center;white-space:nowrap;vertical-align:middle;-ms-touch-action:manipulation;touch-action:manipulation;cursor:pointer;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;background-image:none;border:1px solid transparent;border-radius:4px}
