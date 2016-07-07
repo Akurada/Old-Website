@@ -294,10 +294,6 @@ hr {
   text-transform: none;
   margin: 0;
 }
-#portfolio .portfolio-item {
-	 max-width: 400px;
-	 max-height: 300px;
-}
 #portfolio .portfolio-item .portfolio-caption p {
   font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-style: italic;
