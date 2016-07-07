@@ -338,7 +338,7 @@
 .bootstrap a:focus{outline:thin dotted;outline:5px auto -webkit-focus-ring-color;outline-offset:-2px}
 .bootstrap figure{margin:0}
 .bootstrap img{vertical-align:middle}
-.bootstrap .carousel-inner>.item>a>img, .bootstrap .carousel-inner>.item>img, .bootstrap .img-responsive, .bootstrap .thumbnail a>img, .bootstrap .thumbnail>img{display:block;max-width:100%;height:auto}
+.bootstrap .carousel-inner>.item>a>img, .bootstrap .carousel-inner>.item>img, .bootstrap .img-responsive, .bootstrap .thumbnail a>img, .bootstrap .thumbnail>img{display:block;max-width:100%;}
 .bootstrap .img-rounded{border-radius:6px}
 .bootstrap .img-thumbnail{display:inline-block;max-width:100%;height:auto;padding:4px;line-height:1.42857143;background-color:#fff;border:1px solid #ddd;border-radius:4px;-webkit-transition:all .2s ease-in-out;-o-transition:all .2s ease-in-out;transition:all .2s ease-in-out}
 .bootstrap .img-circle{border-radius:50%}
