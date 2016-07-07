@@ -328,7 +328,7 @@ h2:hover {
 h2 {
 	color: #EBEBEB;
 }
-.no-underline {
+h2 .no-underline {
 	color: #EBEBEB;
 	text-decoration:none;
 }
