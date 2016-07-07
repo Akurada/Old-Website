@@ -441,6 +441,8 @@ hr {
     
     .portfolio-item {
   		margin-bottom: 35px;
+  		margin-right: 20px;
+  		margin-left: 20px;
   	}
   
   #name	{
