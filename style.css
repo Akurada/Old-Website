@@ -252,6 +252,7 @@ hr {
 #portfolio .portfolio-item .portfolio-link .portfolio-hover {
   background: rgba(254, 209, 54, 0.9);
   position: absolute;
+  
   width: 100%;
   height: 100%;
   opacity: 0;
@@ -262,6 +263,7 @@ hr {
 #portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
   opacity: 1;
   overflow: hidden;
+  text-decoration:none;
 }
 #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
   position: absolute;
@@ -272,10 +274,12 @@ hr {
   top: 50%;
   margin-top: -12px;
   color: white;
+  text-decoration:none;
 }
 #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content i {
   margin-top: -12px;
   color: #EBEBEB
+  
 }
 #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h3,
 #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h4 {
@@ -340,6 +344,7 @@ h2 .no-underline {
   overflow: hidden;
   top: 0;
   left: 0;
+  text-decoration:none;
 }
 
 .hovereffect img {
@@ -347,6 +352,7 @@ h2 .no-underline {
   position: relative;
   -webkit-transition: all 0.4s ease-in;
   transition: all 0.4s ease-in;
+  text-decoration:none;
 }
 
 .hovereffect:hover img {
@@ -356,7 +362,7 @@ h2 .no-underline {
   max-width: 400px;
   max-height: 300px;
     overflow: hidden;
-
+text-decoration:none;
 }
 
 .hovereffect h2 {
