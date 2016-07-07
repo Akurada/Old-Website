@@ -328,6 +328,10 @@ h2:hover {
 h2 {
 	color: #EBEBEB;
 }
+.no-underline {
+	color: #EBEBEB;
+	text-decoration:none;
+}
 
 .hovereffect .overlay {
   width: 100%;
