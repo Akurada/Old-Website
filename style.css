@@ -316,6 +316,11 @@ hr {
   cursor: default;
 }
 
+.img-responsive {
+	width: 400px;
+	height: 300px;
+}
+
 h2:hover {
 	text-decoration: none;
 }
