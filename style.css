@@ -128,7 +128,8 @@ hr {
 }
 @font-face {
     font-family: LoveloBlack;
-    src: url('Lovelo_Black.otf') format('otf'),
+    src: url('Lovelo_Black.otf') 
+	format('opentype');
 }
 .smoothScroll {} #about-descript {
     font-family: "Lato";
