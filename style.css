@@ -1,5 +1,3 @@
-
-
 body {
     overflow-x: hidden;
     margin: 0;
@@ -111,6 +109,7 @@ hr {
     font-family: "LoveloBlack", sans-serif;
     font-size: 50px;
     text-align: center;
+    font-weight: bold;
 }
 #div-description {
     font-family: "LoveloBlack";
