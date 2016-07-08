@@ -117,12 +117,12 @@ hr {
 }
 #name {
     font-family: "LoveloBlack";
-    font-size: 39;
+    font-size: 39px;
     line-height: 45pt;
 }
 #subtitle {
     font-family: "LoveloBlack";
-    font-size: 27pt;
+    font-size: 27px;
     line-height: 45pt;
     text-align: center;
 }
