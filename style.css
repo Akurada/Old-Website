@@ -24,7 +24,7 @@ hr{padding-top:-15px;}
 #title{font-family:'Lato', sans-serif;padding-top:150px;font-size:100px;}
 #description{font-family:titleFont, sans-serif;font-size:50px;text-align:center;}
 #div-description{font-family:"LoveloBlack";font-size:39;line-height:45pt;text-align:center;}
-#name{font-family:"LoveloBlack";font-size:39;line-height:45pt;text-align:center;}
+#name{font-family:"LoveloBlack";font-size:39;line-height:45pt;}
 #subtitle{font-family:"LoveloBlack";font-size:27pt;line-height:45pt;text-align:center;}
 @font-face{font-family:titleFont;src:url('Lovelo_Black.otf') format('otf'),}
 .smoothScroll{}
