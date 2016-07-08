@@ -100,7 +100,8 @@ hr {
     text-decoration: none;
 }
 #title {
-    font-family: 'Lato', sans-serif;
+    /*font-family: 'Lato', sans-serif; */ 
+    font-family: "LoveloBlack", sans-serif;
     padding-top: 150px;
     font-size: 100px;
 }
