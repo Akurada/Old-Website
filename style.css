@@ -1,6 +1,10 @@
 #bolded {
        font-weight: bold;
 }
+#italics {
+       font-weight: bold;
+}
+
 body {
     overflow-x: hidden;
     margin: 0;
