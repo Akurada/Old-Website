@@ -22,11 +22,11 @@ hr{padding-top:-15px;}
 .NavRight a{color:#EBEBEB;text-decoration:none;}
 .NavRight a:hover{color:#FBFBFB;text-decoration:none;}
 #title{font-family:'Lato', sans-serif;padding-top:150px;font-size:100px;}
-#description{font-family:titleFont, sans-serif;font-size:50px;text-align:center;}
+#description{font-family:"LoveloBlack", sans-serif;font-size:50px;text-align:center;}
 #div-description{font-family:"LoveloBlack";font-size:39;line-height:45pt;text-align:center;}
 #name{font-family:"LoveloBlack";font-size:39;line-height:45pt;}
 #subtitle{font-family:"LoveloBlack";font-size:27pt;line-height:45pt;text-align:center;}
-@font-face{font-family:titleFont;src:url('Lovelo_Black.otf') format('otf'),}
+@font-face{font-family:LoveloBlack;src:url('Lovelo_Black.otf') format('otf'),}
 .smoothScroll{}
 #about-descript{font-family:"Lato";font-size:20pt;line-height:40pt;font-weight:200;margin-bottom:30px;color:#F7F9F9;text-align:center;}
 #about-text{margin-left:100px;margin-right:100px;margin-top:100px;margin-bottom:50px;text-align:center;}
