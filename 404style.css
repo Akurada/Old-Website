@@ -66,12 +66,12 @@ body{
 .main h2{
 	font-size:80px;
 	font-weight:400;
-	color:#000;
+	color:#ffffff;
 }
 .main h1{
 	font-size:170px;
 	font-weight:400;
-	color:#000;
+	color:#ffffff;
 }
 .main h1 img{
 	width:11%;
@@ -80,12 +80,12 @@ body{
 	margin:30px 0px;
 	font-size:28px;
 	font-weight:400;
-	color:#000;
+	color:#ffffff;
 }
 a.back{
 	display:inline-block;
-	color:#000;
-	border:1px solid #000;
+	color:#ffffff;
+	border:1px solid #ffffff;
 	padding:7px 15px;
 	margin-bottom:30px;
 }
@@ -136,16 +136,16 @@ a.back:hover{
 }
 .footer p{
 	font-size:16px;
-	color:#000;
+	color:#ffffff;
 }
 .footer a{
-	color:#000;
+	color:#ffffff;
 	font-size:16px;
 	border:none;
 	padding:0;
 }
 .footer a:hover{
-	color:#fff;
+	color:#000;
 	font-size:16px;
 }
 @media(max-width:1366px){
