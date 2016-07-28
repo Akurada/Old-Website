@@ -373,6 +373,12 @@ hr {
     #name {
         padding-bottom: 25px;
     }
+    #description {
+    font-family: "LoveloBlack", sans-serif;
+    font-size: 40px;
+    text-align: center;
+    font-weight: bold;	
+	}
 }
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
     #name {
