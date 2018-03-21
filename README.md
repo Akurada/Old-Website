@@ -1,5 +1,1 @@
-# akurada.github.io
-
-http://akurada.tech
-
-Abhinav's Personal Website
+Old Personal Website Template and Code
